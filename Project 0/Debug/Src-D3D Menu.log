@@ -1,0 +1,358 @@
+﻿Build started 11/24/2020 8:47:52 PM.
+     1>Project "C:\Users\Administrator\Desktop\Project-0\Project-0\Project 0\Src-D3D Menu.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SRCD3DMENU_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CDrawing.cpp CWindow.cpp Main.cpp
+         Main.cpp
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(6): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(6): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(11): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(14): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(15): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(20): error C3861: 'oGetRenderTargetData': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(26): error C2065: 'gpDevice' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(32): error C2065: 'pLine' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(41): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(46): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(46): error C2065: 'g_pLocal' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2065: 'g_pLocal' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(56): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(59): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2065: 'Log' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2227: left of '->Write' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(62): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(65): error C2065: 'tFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(67): error C2065: 'tFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(70): error C2065: 'textSprite' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2227: left of '->m_FrameId' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2065: 'lastFrameId' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C3861: 'oGetRenderTargetData': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(79): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2065: 'lastFrameId' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2227: left of '->m_FrameId' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(86): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(90): error C2065: 'viewport' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2027: use of undefined type 'ClientGameLogic'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(32) : see declaration of 'ClientGameLogic'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2227: left of '->getLocalPlayer' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2227: left of '->bInited' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(105): error C2065: 'matProj' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(106): error C2065: 'matView' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2065: 'GameObject' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2227: left of '->GetFirstObject' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2065: 'GameObject' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'EGameObjectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2146: syntax error : missing ';' before identifier 'objectType'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2227: left of '->getObjType' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(121): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(121): error C2065: 'OBJTYPE_Human' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(122): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(122): error C2065: 'OBJTYPE_Zombie' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(123): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(123): error C2065: 'OBJTYPE_GameplayItem' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(127): error C2065: 'white' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(135): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(135): error C2065: 'OBJTYPE_Human' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(141): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(141): error C2227: left of '->isAlive' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C3861: 'WorldToScreen': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.x' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.y' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.z' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(155): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(155): error C2227: left of '->getH' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(158): error C3861: 'WorldToScreen': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(159): error C2065: 'PlayerESP' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(159): warning C4805: '==' : unsafe mix of type ''unknown-type'' and type 'bool' in operation
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C2065: 'orange' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C2065: 'espFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C3861: 'drawText': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C2065: 'purple' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C2065: 'espFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C3861: 'drawText': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(170): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(170): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(171): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(171): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(172): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(172): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(173): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(173): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): error C2065: 'green' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): error C2065: 'black' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): fatal error C1003: error count exceeds 100; stopping compilation
+         CWindow.cpp
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(6): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(6): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(11): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(14): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(15): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(20): error C3861: 'oGetRenderTargetData': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(26): error C2065: 'gpDevice' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(32): error C2065: 'pLine' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(41): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(46): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(46): error C2065: 'g_pLocal' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2065: 'g_pLocal' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(56): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(59): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2065: 'Log' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2227: left of '->Write' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(62): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(65): error C2065: 'tFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(67): error C2065: 'tFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(70): error C2065: 'textSprite' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2227: left of '->m_FrameId' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2065: 'lastFrameId' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C3861: 'oGetRenderTargetData': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(79): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2065: 'lastFrameId' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2227: left of '->m_FrameId' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(86): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(90): error C2065: 'viewport' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2027: use of undefined type 'ClientGameLogic'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(32) : see declaration of 'ClientGameLogic'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2227: left of '->getLocalPlayer' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2227: left of '->bInited' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(105): error C2065: 'matProj' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(106): error C2065: 'matView' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2065: 'GameObject' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2227: left of '->GetFirstObject' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2065: 'GameObject' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'EGameObjectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2146: syntax error : missing ';' before identifier 'objectType'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2227: left of '->getObjType' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(121): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(121): error C2065: 'OBJTYPE_Human' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(122): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(122): error C2065: 'OBJTYPE_Zombie' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(123): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(123): error C2065: 'OBJTYPE_GameplayItem' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(127): error C2065: 'white' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(135): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(135): error C2065: 'OBJTYPE_Human' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(141): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(141): error C2227: left of '->isAlive' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C3861: 'WorldToScreen': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.x' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.y' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.z' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(155): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(155): error C2227: left of '->getH' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(158): error C3861: 'WorldToScreen': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(159): error C2065: 'PlayerESP' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(159): warning C4805: '==' : unsafe mix of type ''unknown-type'' and type 'bool' in operation
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C2065: 'orange' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C2065: 'espFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C3861: 'drawText': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C2065: 'purple' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C2065: 'espFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C3861: 'drawText': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(170): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(170): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(171): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(171): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(172): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(172): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(173): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(173): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): error C2065: 'green' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): error C2065: 'black' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): fatal error C1003: error count exceeds 100; stopping compilation
+         CDrawing.cpp
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(6): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(6): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(11): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(14): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(15): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(20): error C3861: 'oGetRenderTargetData': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(26): error C2065: 'gpDevice' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(32): error C2065: 'pLine' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(41): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(46): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(46): error C2065: 'g_pLocal' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2065: 'g_pLocal' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(47): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(56): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(59): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2065: 'Log' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2227: left of '->Write' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(61): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(62): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(65): error C2065: 'tFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(67): error C2065: 'tFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(70): error C2065: 'textSprite' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2227: left of '->m_FrameId' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(76): error C2065: 'lastFrameId' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C2065: 'pBackBuffer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C2065: 'pCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(78): error C3861: 'oGetRenderTargetData': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(79): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2065: 'lastFrameId' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(81): error C2227: left of '->m_FrameId' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(86): error C2065: 'getCleanFrame' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(90): error C2065: 'viewport' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2027: use of undefined type 'ClientGameLogic'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(32) : see declaration of 'ClientGameLogic'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(97): error C2227: left of '->getLocalPlayer' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(100): error C2227: left of '->bInited' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(105): error C2065: 'matProj' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(106): error C2065: 'matView' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2065: 'GameObject' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2027: use of undefined type 'ObjectManager'
+                 c:\users\administrator\desktop\project-0\project-0\project 0\main.h(33) : see declaration of 'ObjectManager'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(112): error C2227: left of '->GetFirstObject' must point to class/struct/union/generic type
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2065: 'GameObject' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(116): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'EGameObjectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2146: syntax error : missing ';' before identifier 'objectType'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(119): error C2227: left of '->getObjType' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(121): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(121): error C2065: 'OBJTYPE_Human' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(122): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(122): error C2065: 'OBJTYPE_Zombie' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(123): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(123): error C2065: 'OBJTYPE_GameplayItem' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(127): error C2065: 'white' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2065: 'localPlayer' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(132): error C2065: 'object' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(135): error C2065: 'objectType' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(135): error C2065: 'OBJTYPE_Human' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2065: 'obj_Player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(138): error C2059: syntax error : ')'
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(141): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(141): error C2227: left of '->isAlive' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(151): error C3861: 'WorldToScreen': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2227: left of '->vPos' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.x' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.y' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(153): error C2228: left of '.z' must have class/struct/union
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(155): error C2065: 'player' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(155): error C2227: left of '->getH' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(158): error C3861: 'WorldToScreen': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(159): error C2065: 'PlayerESP' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(159): warning C4805: '==' : unsafe mix of type ''unknown-type'' and type 'bool' in operation
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C2065: 'orange' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C2065: 'espFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(167): error C3861: 'drawText': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C2065: 'purple' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C2065: 'espFont' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(168): error C3861: 'drawText': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(170): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(170): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(171): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(171): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(172): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(172): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(173): error C2065: 'lime' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(173): error C3861: 'DrawLine': identifier not found
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): error C2065: 'green' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): error C2065: 'black' : undeclared identifier
+     1>c:\users\administrator\desktop\project-0\project-0\project 0\hooks.h(179): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\Administrator\Desktop\Project-0\Project-0\Project 0\Src-D3D Menu.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.06
